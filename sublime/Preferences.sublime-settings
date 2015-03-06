@@ -1,0 +1,13 @@
+{
+	"theme": "Brogrammer.sublime-theme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"preview_on_click": false,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}
+
