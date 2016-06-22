@@ -1,6 +1,12 @@
 Git
 ---
 
+#### Installation
+
+```sh
+brew install git
+```
+
 #### Configuration
 * Install `diff-highlight`:
 ```sh
