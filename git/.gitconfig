@@ -96,6 +96,9 @@
 	# http://michael-kuehnel.de/git/2014/11/21/git-mac-osx-and-german-umlaute.html
 	precomposeunicode = false
 
+        # diff-so-fancy
+	pager = diff-so-fancy | less --tabs=4 -RFX
+
 [color]
 
 	# Use colors in Git commands that are capable of colored output when
@@ -125,6 +128,7 @@
 
 	# Detect copies as well as renames
 	renames = copies
+	compactionHeuristic = true
 
 [help]
 
@@ -142,12 +146,6 @@
 	# installations. To use `simple` instead, add this to your `~/.extra` file:
 	# `git config --global push.default simple`. See http://git.io/mMah-w.
 	default = matching
-
-[pager]
-
-	log = diff-highlight | less
-	show = diff-highlight | less
-	diff = diff-highlight | less
 
 # URL shorthands
 
@@ -170,7 +168,6 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
-
 [user]
 	email = cecchi.macnaughton@gmail.com
 	nam = Cecchi MacNaughton
