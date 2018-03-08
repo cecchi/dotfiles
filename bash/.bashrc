@@ -159,4 +159,4 @@ function git_branch {
   fi
 }
 
-export PS1='`if [ $? = 0 ]; then echo "\[\033[01;32m\]✔"; else echo "\[\033[01;31m\]✘"; fi` \[\033[01;30m\]\h\[\033[01;34m\] \w$(git_color)$(git_branch " %s") \[\033[01;30m\]>\[\033[00m\] '
+export PS1='`if [ $? = 0 ]; then echo "\[\033[01;32m\]✔"; else echo "\[\033[01;31m\]✘"; fi` \[\033[01;30m\]\h\[\033[01;34m\] \w\[$(git_color)\]$(git_branch " %s") \[\033[01;30m\]>\[\033[00m\] '
