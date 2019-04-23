@@ -6,3 +6,5 @@ Bash
 
 #### Miscellaneous Packages
 * [ccat](https://github.com/jingweno/ccat)
+* [fzf](https://github.com/junegunn/fzf)
+* [fd](https://github.com/sharkdp/fd)
