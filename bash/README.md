@@ -8,3 +8,5 @@ Bash
 * [ccat](https://github.com/jingweno/ccat)
 * [fzf](https://github.com/junegunn/fzf)
 * [fd](https://github.com/sharkdp/fd)
+* [bat](https://github.com/sharkdp/bat)
+* [exa](https://the.exa.website/)
